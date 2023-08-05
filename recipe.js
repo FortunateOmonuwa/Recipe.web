@@ -94,8 +94,7 @@ export class recipeClass {
             recipe.style.display = "block";
           });
         })
-        .catch((error) => {
-          this.elements.errorText.innerHTML = `<h3>Invalid Input</h3>`
+        .catch((error) => { 
           console.error("Error:", error);
         });
     }
